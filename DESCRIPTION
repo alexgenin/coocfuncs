@@ -1,0 +1,20 @@
+Package: coocfuncs
+Title: Co-ocurrence functions for transect data
+Version: 0.0.0.9000
+Authors@R: person("Alexandre", "Génin", email = "alexandre.genin@umontpellier.fr", role = c("aut", "cre"))
+Description: This package contains functions to compute association networks from continous transect data. 
+Depends:
+    R (>= 3.2.3), 
+    ggplot2
+License: GPLv3
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests:
+    testthat
+LinkingTo: Rcpp, RcppArmadillo
+Imports:
+    Rcpp,
+    plyr,
+    tidyr, 
+    moments
+Encoding: UTF-8
