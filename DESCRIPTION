@@ -5,7 +5,8 @@ Authors@R: person("Alexandre", "Génin", email = "alexandre.genin@umontpellier.f
 Description: This package contains functions to compute association networks from continous transect data. 
 Depends:
     R (>= 3.2.3), 
-    ggplot2
+    ggplot2, 
+    plyr
 License: GPLv3
 LazyData: true
 RoxygenNote: 7.1.1
