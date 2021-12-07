@@ -1,7 +1,7 @@
 Package: coocfuncs
 Title: Co-ocurrence functions for transect data
-Version: 0.0.0.9000
-Authors@R: person("Alexandre", "Génin", email = "alexandre.genin@umontpellier.fr", role = c("aut", "cre"))
+Version: 0.0.1
+Authors@R: person("Alexandre", "Génin", email = "a.a.h.genin@uu.nl", role = c("aut", "cre"))
 Description: This package contains functions to compute association networks from continous transect data. 
 Depends:
     R (>= 3.2.3), 
