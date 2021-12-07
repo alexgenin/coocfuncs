@@ -4,6 +4,7 @@
 #   on continous data.
 # 
 
+#'@export
 cont_overlap <- function(df, tol = 0, 
                          groups = "transect", attribut = "attribut") { 
   

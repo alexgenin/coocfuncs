@@ -29,6 +29,7 @@ shuffle_core <- function(xs, xmax) {
     .Call('_coocfuncs_shuffle_core', PACKAGE = 'coocfuncs', xs, xmax)
 }
 
+#'@export
 get_cover <- function(xs, xmax) {
     .Call('_coocfuncs_get_cover', PACKAGE = 'coocfuncs', xs, xmax)
 }

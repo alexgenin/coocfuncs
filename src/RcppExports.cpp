@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // cont_overlap_core
 arma::mat cont_overlap_core(arma::uword N, arma::uword Nsp, arma::vec& xis, arma::vec& xes, arma::uvec& attributs, arma::uvec& transectid, double tol);
 RcppExport SEXP _coocfuncs_cont_overlap_core(SEXP NSEXP, SEXP NspSEXP, SEXP xisSEXP, SEXP xesSEXP, SEXP attributsSEXP, SEXP transectidSEXP, SEXP tolSEXP) {

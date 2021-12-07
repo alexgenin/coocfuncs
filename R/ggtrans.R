@@ -1,5 +1,5 @@
 
-#@export
+#'@export
 ggtrans <- function(trans, height = rnorm(nrow(trans), 2, .5), 
                     xmin = min(trans$xi), xmax = max(trans$xe)) { 
   trans[ ,"attribut"] <- as.factor(trans[ ,"attribut"])

@@ -35,6 +35,7 @@ arma::mat shuffle_core(arma::mat& xs, double xmax) {
   return(newxs); 
 }
 
+//'@export
 //[[Rcpp::export]]
 double get_cover(arma::mat& xs, 
                  double xmax) { 
